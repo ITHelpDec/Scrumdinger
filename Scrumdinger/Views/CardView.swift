@@ -20,6 +20,7 @@ struct CardView: View {
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
                     .padding(.trailing, 20)
             }
+            .font(.caption)
         }
     }
 }
