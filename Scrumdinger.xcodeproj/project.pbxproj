@@ -99,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D5CC53A32BBF3F0F007DBD0F /* Models */,
+				D5CC53A82BBF42E1007DBD0F /* Views */,
 				D5CC53792BBF05FB007DBD0F /* ScrumdingerApp.swift */,
 				D5CC537B2BBF05FB007DBD0F /* MeetingView.swift */,
 				D5CC537D2BBF05FC007DBD0F /* Assets.xcassets */,
@@ -139,6 +140,13 @@
 				D5CC53A62BBF4206007DBD0F /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		D5CC53A82BBF42E1007DBD0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
