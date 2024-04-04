@@ -13,6 +13,7 @@ struct MeetingView: View {
             ProgressView(value: 5, total: 15)
             HStack {
                 Text("Seconds Elapsed")
+                Text("Seconds Remaining")
             }
         }
     }
