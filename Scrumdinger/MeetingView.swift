@@ -14,6 +14,7 @@ struct MeetingView: View {
             HStack {
                 VStack {
                     Text("Seconds Elapsed")
+                    Label("300", systemImage: "hourglass.tophalf.fill")
                 }
                 VStack {
                     Text("Seconds Remaining")
