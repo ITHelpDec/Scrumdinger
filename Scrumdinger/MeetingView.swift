@@ -9,13 +9,7 @@ import SwiftUI
 
 struct MeetingView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ProgressView(value: 10, total: 15)
     }
 }
 
