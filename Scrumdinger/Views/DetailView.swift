@@ -26,6 +26,10 @@ struct DetailView: View {
                     Label("Theme", systemImage: "paintpalette")
                     Spacer()
                     Text(scrum.theme.name)
+                        .padding(4)
+                        .foregroundColor(scrum.theme.accentColour)
+                        .background(scrum.theme.mainColour)
+                        .cornerRadius(4)
                 }
                 .accessibilityElement(children: .combine)
             }
