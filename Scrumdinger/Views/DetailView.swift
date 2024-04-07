@@ -21,6 +21,7 @@ struct DetailView: View {
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
+                .accessibilityElement(children: .combine)
             }
         }
     }
