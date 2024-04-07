@@ -12,7 +12,7 @@ struct ScrumsView: View {
     
     var body: some View {
         List(scrums, id: \.title) { scrum in
-            
+            CardView(scrum: scrum)
         }
     }
 }
