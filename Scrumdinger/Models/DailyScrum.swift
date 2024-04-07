@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct DailyScrum {
+struct DailyScrum : Identifiable {
     var title: String
     var attendees: [String]
     var lengthInMinutes: Int
