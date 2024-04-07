@@ -18,6 +18,7 @@ struct ScrumsView: View {
                 }
                 .listRowBackground(scrum.theme.mainColour)
             }
+            .navigationTitle("Daily Scrums")
         }
     }
 }
