@@ -23,7 +23,9 @@ struct DetailEditView: View {
                 }
             }
             Section(header: Text("Attendee")) {
-                
+                ForEach(scrum.attendees) { attendee in
+                    Text(attendee.name)
+                }
             }
         }
     }
