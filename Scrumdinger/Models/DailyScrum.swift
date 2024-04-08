@@ -25,6 +25,8 @@ struct DailyScrum : Identifiable {
 
 extension DailyScrum {
     struct Attendee: Identifiable {
+        let id: UUID
+        var name: String
     }
 }
 
