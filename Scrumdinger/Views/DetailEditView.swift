@@ -22,6 +22,9 @@ struct DetailEditView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
             }
+            Section(header: Text("Attendee")) {
+                
+            }
         }
     }
 }
