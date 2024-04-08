@@ -13,7 +13,9 @@ struct DailyScrum : Identifiable {
     var attendees: [Attendee]
     var lengthInMinutes: Int
     var lengthInMinutesAsDouble: Double {
-        
+        get {
+            Double(lengthInMinutes)
+        }
     }
     var theme: Theme
     
