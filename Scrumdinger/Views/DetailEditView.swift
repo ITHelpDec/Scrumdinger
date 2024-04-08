@@ -13,7 +13,7 @@ struct DetailEditView: View {
     var body: some View {
         Form {
             Section(header: Text("Meeting Info")) {
-                
+                TextField("Title", text: $scrum.title)
             }
         }
     }
