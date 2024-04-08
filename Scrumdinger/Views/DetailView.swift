@@ -10,6 +10,8 @@ import SwiftUI
 struct DetailView: View {
     let scrum: DailyScrum
     
+    @State private var isPresentingEditView = false
+    
     var body: some View {
         List {
             Section(header: Text("Meeting Info")) {
