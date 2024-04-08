@@ -44,6 +44,9 @@ struct DetailView: View {
             }
         }
         .navigationTitle(scrum.title)
+        .sheet(isPresented: $isPresentingEditView) {
+            DetailEditView()
+        }
     }
 }
 
