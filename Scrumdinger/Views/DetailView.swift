@@ -34,7 +34,9 @@ struct DetailView: View {
                 .accessibilityElement(children: .combine)
             }
             Section(header: Text("Attendees")) {
-                
+                ForEach(scrum.attendees) { attendee in
+                    
+                }
             }
         }
     }
