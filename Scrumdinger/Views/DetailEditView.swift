@@ -26,6 +26,9 @@ struct DetailEditView: View {
                 ForEach(scrum.attendees) { attendee in
                     Text(attendee.name)
                 }
+                .onDelete { indices in
+                    scrum.attendees.remove(atOffsets: indices)
+                }
             }
         }
     }
