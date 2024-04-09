@@ -14,6 +14,7 @@ struct ThemeView: View {
         Text(theme.name)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             .background(theme.mainColour)
+            .foregroundColor(theme.accentColour)
             .clipShape(RoundedRectangle(cornerRadius: 4))
     }
 }
