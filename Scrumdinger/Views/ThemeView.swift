@@ -12,7 +12,9 @@ struct ThemeView: View {
     
     var body: some View {
         Text(theme.name)
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
             .background(theme.mainColour)
+            .clipShape(RoundedRectangle(cornerRadius: 4))
     }
 }
 
