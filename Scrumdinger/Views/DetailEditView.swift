@@ -53,5 +53,5 @@ struct DetailEditView: View {
 }
 
 #Preview {
-    DetailEditView()
+    DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
 }
