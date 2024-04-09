@@ -16,5 +16,5 @@ struct ThemePicker: View {
 }
 
 #Preview {
-    ThemePicker()
+    ThemePicker(selection: .constant(.periwinkle))
 }
