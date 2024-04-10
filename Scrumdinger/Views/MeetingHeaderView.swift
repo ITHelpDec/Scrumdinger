@@ -10,6 +10,7 @@ import SwiftUI
 struct MeetingHeaderView: View {
     let secondsElapsed: Int
     let secondsRemaining: Int
+    let theme: Theme
     
     private var totalSeconds: Int {
         secondsElapsed + secondsRemaining
@@ -46,6 +47,6 @@ struct MeetingHeaderView: View {
 }
 
 #Preview {
-    MeetingHeaderView(secondsElapsed: 60, secondsRemaining: 180)
+    MeetingHeaderView(secondsElapsed: 60, secondsRemaining: 180, theme: .bubblegum)
         .previewLayout(.sizeThatFits)
 }
