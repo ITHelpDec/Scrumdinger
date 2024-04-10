@@ -10,6 +10,10 @@ import SwiftUI
 struct MeetingHeaderView: View {
     let secondsElapsed: Int
     let secondsRemaining: Int
+    
+    private var totalSeconds: Int {
+        secondsElapsed + secondsRemaining
+    }
     var body: some View {
         VStack {
             ProgressView(value: 5, total: 15)
