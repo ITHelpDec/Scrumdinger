@@ -48,5 +48,5 @@ struct MeetingView: View {
 }
 
 #Preview {
-    MeetingView()
+    MeetingView(scrum: .constant(DailyScrum.sampleData[0]))
 }
