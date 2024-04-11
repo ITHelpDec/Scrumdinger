@@ -12,7 +12,9 @@ struct NewScrumSheet: View {
     @Binding var isPresentingNewScrumView: Bool
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            DetailView(scrum: $newScrum)
+        }
     }
 }
 
