@@ -23,6 +23,7 @@ struct NewScrumSheet: View {
                     }
                     ToolbarItem(placement: .confirmationAction) {
                         Button("Add") {
+                            scrums.append(newScrum)
                             isPresentingNewScrumView = false
                         }
                     }
