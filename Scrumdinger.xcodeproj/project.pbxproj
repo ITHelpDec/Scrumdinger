@@ -29,6 +29,7 @@
 		D5CC53C22BC7D396007DBD0F /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC53C12BC7D396007DBD0F /* MeetingFooterView.swift */; };
 		D5CC53C42BC842A6007DBD0F /* AVPlayer+Ding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC53C32BC842A6007DBD0F /* AVPlayer+Ding.swift */; };
 		D5DC11FD2BC847C5008357A6 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = D5DC11FC2BC847C5008357A6 /* ding.wav */; };
+		D5DC11FF2BC87359008357A6 /* NewScrumSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC11FE2BC87359008357A6 /* NewScrumSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		D5CC53C12BC7D396007DBD0F /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 		D5CC53C32BC842A6007DBD0F /* AVPlayer+Ding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Ding.swift"; sourceTree = "<group>"; };
 		D5DC11FC2BC847C5008357A6 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		D5DC11FE2BC87359008357A6 /* NewScrumSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScrumSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 				D5CC53BB2BC71C46007DBD0F /* MeetingHeaderView.swift */,
 				D5CC53BD2BC72345007DBD0F /* ScrumProgressViewStyle.swift */,
 				D5CC53C12BC7D396007DBD0F /* MeetingFooterView.swift */,
+				D5DC11FE2BC87359008357A6 /* NewScrumSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				D5CC53B42BC33554007DBD0F /* DetailView.swift in Sources */,
 				D5CC53BC2BC71C46007DBD0F /* MeetingHeaderView.swift in Sources */,
 				D5CC53B62BC43CFD007DBD0F /* DetailEditView.swift in Sources */,
+				D5DC11FF2BC87359008357A6 /* NewScrumSheet.swift in Sources */,
 				D5CC53AE2BBF6010007DBD0F /* TrailingIconLabelStyle.swift in Sources */,
 				D5CC53A52BBF3F66007DBD0F /* Theme.swift in Sources */,
 				D5CC53B22BC32149007DBD0F /* ScrumsView.swift in Sources */,
