@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MeetingFooterView: View {
     let speakers: [ScrumTimer.Speaker]
+    var skipAction: ()->Void
     var body: some View {
         HStack {
             Text("Speaker 1 of 3")
@@ -22,6 +23,6 @@ struct MeetingFooterView: View {
 }
 
 #Preview {
-    MeetingFooterView(speakers: DailyScrum.sampleData[0].attendees.speakers)
+    MeetingFooterView(speakers: DailyScrum.sampleData[0].attendees.speakers, skipAction: {})
         .previewLayout(.sizeThatFits)
 }
