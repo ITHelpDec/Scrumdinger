@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct NewScrumSheet: View {
+    @State private var newScrum = DailyScrum.emptyScrum
     @Binding var isPresentingNewScrumView: Bool
     
     var body: some View {
