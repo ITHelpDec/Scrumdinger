@@ -30,9 +30,7 @@ struct MeetingView: View {
                 startScrum()
             }
             .onDisappear {
-                scrumTimer.stopScrum()
-                let newHistory = History(attendees: scrum.attendees)
-                scrum.history.insert(newHistory, at: 0)
+                endScrum()
             }
             .navigationBarTitleDisplayMode(.inline)
         }
@@ -45,6 +43,12 @@ struct MeetingView: View {
             player.play()
         }
         scrumTimer.startScrum()
+    }
+    
+    private func endScrum() {
+        scrumTimer.stopScrum()
+        let newHistory = History(attendees: scrum.attendees)
+        scrum.history.insert(newHistory, at: 0)
     }
 }
 
