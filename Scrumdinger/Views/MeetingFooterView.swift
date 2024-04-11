@@ -30,7 +30,7 @@ struct MeetingFooterView: View {
                 } else {
                     Text(speakerTest)
                     Spacer()
-                    Button(action: {}) {
+                    Button(action: skipAction) {
                         Image(systemName: "forward.fill")
                     }
                     .accessibilityLabel("Next speaker")
