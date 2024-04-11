@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct NewScrumSheet: View {
+    @Binding var isPresentingNewScrumView: Bool
+    
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    NewScrumSheet()
+    NewScrumSheet(isPresentingNewScrumView: .constant(true))
 }
