@@ -36,6 +36,8 @@ struct MeetingView: View {
             }
             .onDisappear {
                 scrumTimer.stopScrum()
+                let newHistory = History(attendees: scrum.attendees)
+                scrum.history.insert(newHistory, at: 0)
             }
             .navigationBarTitleDisplayMode(.inline)
         }
