@@ -5,4 +5,8 @@
 //  Created by ITHelpDec on 13/04/2024.
 //
 
-import Foundation
+import SwiftUI
+
+class ScrumStore: ObservableObject {
+    
+}
