@@ -20,7 +20,7 @@ class ScrumStore: ObservableObject {
     
     func load() async throws {
         let task = Task<[DailyScrum], Error> {
-            
+            let fileURL = try Self.fileURL()
         }
     }
 }
