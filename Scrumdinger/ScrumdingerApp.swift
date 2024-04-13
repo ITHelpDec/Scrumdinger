@@ -15,7 +15,11 @@ struct ScrumdingerApp: App {
         WindowGroup {
             ScrumsView(scrums: $store.scrums)
                 .task {
-                    
+                    do {
+                        try await store.load()
+                    } catch {
+                        fatalError(error.localizedDescription)
+                    }
                 }
         }
     }
