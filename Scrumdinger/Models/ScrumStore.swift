@@ -31,4 +31,8 @@ class ScrumStore: ObservableObject {
         let scrums = try await task.value
         self.scrums = scrums
     }
+    
+    func save(scrums: [DailyScrum]) async throws {
+        
+    }
 }
