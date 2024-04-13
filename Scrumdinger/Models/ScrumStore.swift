@@ -19,7 +19,7 @@ class ScrumStore: ObservableObject {
     }
     
     func load() async throws {
-        let task = Task {
+        let task = Task<[DailyScrum], Error> {
             
         }
     }
