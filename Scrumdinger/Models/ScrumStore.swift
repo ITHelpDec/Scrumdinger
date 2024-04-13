@@ -27,5 +27,6 @@ class ScrumStore: ObservableObject {
             let DailyScrums = try JSONDecoder().decode([DailyScrum].self, from: data)
             return DailyScrums
         }
+        let scrums = try await task.value
     }
 }
