@@ -33,6 +33,8 @@ class ScrumStore: ObservableObject {
     }
     
     func save(scrums: [DailyScrum]) async throws {
-        
+        let task = Task {
+            
+        }
     }
 }
