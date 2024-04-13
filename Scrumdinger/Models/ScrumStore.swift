@@ -38,5 +38,6 @@ class ScrumStore: ObservableObject {
             let outfile = try Self.fileURL()
             try data.write(to: outfile)
         }
+        _ = try await task.value
     }
 }
