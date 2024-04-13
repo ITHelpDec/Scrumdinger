@@ -29,5 +29,6 @@ class ScrumStore: ObservableObject {
             return DailyScrums
         }
         let scrums = try await task.value
+        self.scrums = scrums
     }
 }
