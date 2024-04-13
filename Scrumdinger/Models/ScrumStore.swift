@@ -17,4 +17,8 @@ class ScrumStore: ObservableObject {
                                     create: false)
         .appendingPathComponent("scrums.data")
     }
+    
+    func load() async throws {
+        
+    }
 }
