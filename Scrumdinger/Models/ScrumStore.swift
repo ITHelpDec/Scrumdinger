@@ -19,6 +19,8 @@ class ScrumStore: ObservableObject {
     }
     
     func load() async throws {
-        
+        let task = Task {
+            
+        }
     }
 }
