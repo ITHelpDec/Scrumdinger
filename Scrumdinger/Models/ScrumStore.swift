@@ -24,6 +24,7 @@ class ScrumStore: ObservableObject {
             guard let data = try? Data(contentsOf: fileURL) else {
                 return []
             }
+            let DailyScrums = try JSONDecoder().decode([DailyScrum].self, from: data)
         }
     }
 }
