@@ -15,5 +15,6 @@ class ScrumStore: ObservableObject {
                                     in: .userDomainMask,
                                     appropriateFor: nil,
                                     create: false)
+        .appendingPathComponent("scrums.data")
     }
 }
