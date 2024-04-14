@@ -29,7 +29,9 @@ struct ErrorView: View {
             .cornerRadius(16)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    
+                    Button("Dismiss") {
+                        dismiss()
+                    }
                 }
             }
         }
