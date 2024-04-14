@@ -24,5 +24,5 @@ struct ErrorView: View {
         ErrorWrapper(error: SampleError.errorRequired, guidance: "You can safely ignore this error.")
     }
     
-    ErrorView()
+    ErrorView(errorWrapper: wrapper)
 }
