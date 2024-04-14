@@ -31,6 +31,11 @@ struct ScrumdingerApp: App {
                                                 guidance: "Scrumdinger will load sample data and continue")
                 }
             }
+            .sheet(item: $errorWrapper) {
+                
+            } content: { wrapper in
+                
+            }
         }
     }
 }
