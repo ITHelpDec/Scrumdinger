@@ -34,6 +34,9 @@ struct ScrumsView: View {
         .sheet(isPresented: $isPresentingNewScrumView) {
             NewScrumSheet(scrums: $scrums, isPresentingNewScrumView: $isPresentingNewScrumView)
         }
+        .onChange(of: scenePhase) { phase in
+            
+        }
     }
 }
 
