@@ -15,7 +15,7 @@ struct ErrorView: View {
     }
 }
 
-#Preview {
+struct ErrorView_Previews: PreviewProvider {
     enum SampleError: Error {
         case errorRequired
     }
@@ -24,5 +24,7 @@ struct ErrorView: View {
         ErrorWrapper(error: SampleError.errorRequired, guidance: "You can safely ignore this error.")
     }
     
-    ErrorView(errorWrapper: wrapper)
+    static var previews: some View {
+        ErrorView(errorWrapper: wrapper)
+    }
 }
