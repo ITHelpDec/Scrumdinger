@@ -20,5 +20,9 @@ struct ErrorView: View {
         case errorRequired
     }
     
+    static var wrapper: ErrorWrapper {
+        ErrorWrapper(error: SampleError.errorRequired, guidance: "You can safely ignore this error.")
+    }
+    
     ErrorView()
 }
