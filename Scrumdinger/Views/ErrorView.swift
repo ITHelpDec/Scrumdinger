@@ -27,6 +27,11 @@ struct ErrorView: View {
             .padding()
             .background(.ultraThinMaterial)
             .cornerRadius(16)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    
+                }
+            }
         }
     }
 }
