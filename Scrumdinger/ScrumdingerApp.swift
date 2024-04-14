@@ -34,7 +34,7 @@ struct ScrumdingerApp: App {
             .sheet(item: $errorWrapper) {
                 
             } content: { wrapper in
-                
+                ErrorView(errorWrapper: wrapper)
             }
         }
     }
