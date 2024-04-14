@@ -16,5 +16,9 @@ struct ErrorView: View {
 }
 
 #Preview {
+    enum SampleError: Error {
+        case errorRequired
+    }
+    
     ErrorView()
 }
