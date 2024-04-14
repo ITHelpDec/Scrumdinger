@@ -13,14 +13,18 @@ struct ScrumdingerApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ScrumsView(scrums: $store.scrums)
-                .task {
-                    do {
-                        try await store.load()
-                    } catch {
-                        fatalError(error.localizedDescription)
-                    }
+            ScrumsView(scrums: $store.scrums) {
+                Task {
+                    
                 }
+            }
+            .task {
+                do {
+                    try await store.load()
+                } catch {
+                    fatalError(error.localizedDescription)
+                }
+            }
         }
     }
 }
