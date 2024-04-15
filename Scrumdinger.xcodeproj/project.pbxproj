@@ -34,6 +34,7 @@
 		D5DC12032BCAEF11008357A6 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12022BCAEF11008357A6 /* ScrumStore.swift */; };
 		D5DC12052BCC1B52008357A6 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12042BCC1B52008357A6 /* ErrorWrapper.swift */; };
 		D5DC12072BCC1C43008357A6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12062BCC1C43008357A6 /* ErrorView.swift */; };
+		D5DC12092BCDEE79008357A6 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		D5DC12022BCAEF11008357A6 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		D5DC12042BCC1B52008357A6 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		D5DC12062BCC1C43008357A6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				D5CC53C12BC7D396007DBD0F /* MeetingFooterView.swift */,
 				D5DC11FE2BC87359008357A6 /* NewScrumSheet.swift */,
 				D5DC12062BCC1C43008357A6 /* ErrorView.swift */,
+				D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				D5CC53C22BC7D396007DBD0F /* MeetingFooterView.swift in Sources */,
 				D5DC12072BCC1C43008357A6 /* ErrorView.swift in Sources */,
 				D5CC53C02BC7CE0C007DBD0F /* ScrumTimer.swift in Sources */,
+				D5DC12092BCDEE79008357A6 /* MeetingTimerView.swift in Sources */,
 				D5CC53A72BBF4206007DBD0F /* DailyScrum.swift in Sources */,
 				D5DC12032BCAEF11008357A6 /* ScrumStore.swift in Sources */,
 				D5CC53B42BC33554007DBD0F /* DetailView.swift in Sources */,
