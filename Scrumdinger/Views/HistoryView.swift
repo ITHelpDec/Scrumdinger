@@ -17,8 +17,15 @@ struct HistoryView: View {
                     .padding(.bottom)
                 Text("Attendees")
                     .font(.headline)
+                Text(history.attendeeString)
             }
         }
+    }
+}
+
+extension History {
+    var attendeeString: String {
+        ListFormatter.localizedString(byJoining: attendees.map { $0.name })
     }
 }
 
