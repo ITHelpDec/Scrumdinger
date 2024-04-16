@@ -36,6 +36,7 @@
 		D5DC12072BCC1C43008357A6 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12062BCC1C43008357A6 /* ErrorView.swift */; };
 		D5DC12092BCDEE79008357A6 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */; };
 		D5DC120D2BCE71F5008357A6 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC120C2BCE71F5008357A6 /* SpeakerArc.swift */; };
+		D5DC12102BCEB5F6008357A6 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC120F2BCEB5F6008357A6 /* SpeechRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		D5DC12062BCC1C43008357A6 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 		D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		D5DC120C2BCE71F5008357A6 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
+		D5DC120F2BCEB5F6008357A6 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				D5DC12002BC89A6C008357A6 /* History.swift */,
 				D5DC12022BCAEF11008357A6 /* ScrumStore.swift */,
 				D5DC12042BCC1B52008357A6 /* ErrorWrapper.swift */,
+				D5DC120F2BCEB5F6008357A6 /* SpeechRecognizer.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -365,6 +368,7 @@
 				D5DC11FF2BC87359008357A6 /* NewScrumSheet.swift in Sources */,
 				D5CC53AE2BBF6010007DBD0F /* TrailingIconLabelStyle.swift in Sources */,
 				D5CC53A52BBF3F66007DBD0F /* Theme.swift in Sources */,
+				D5DC12102BCEB5F6008357A6 /* SpeechRecognizer.swift in Sources */,
 				D5CC53B22BC32149007DBD0F /* ScrumsView.swift in Sources */,
 				D5CC537C2BBF05FB007DBD0F /* MeetingView.swift in Sources */,
 				D5CC537A2BBF05FB007DBD0F /* ScrumdingerApp.swift in Sources */,
