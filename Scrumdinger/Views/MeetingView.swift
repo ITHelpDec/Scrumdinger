@@ -49,6 +49,7 @@ struct MeetingView: View {
     
     private func endScrum() {
         scrumTimer.stopScrum()
+        speechRecogniser.stopTranscribing()
         let newHistory = History(attendees: scrum.attendees)
         scrum.history.insert(newHistory, at: 0)
     }
