@@ -11,6 +11,10 @@ struct MeetingTimerView: View {
     let speakers: [ScrumTimer.Speaker]
     let theme: Theme
     
+    private var currentSpeaker: String {
+        speakers.first(where: { !$0.isCompleted })?.name ?? "Someone"
+    }
+    
     var body: some View {
         Circle()
             .strokeBorder(lineWidth: 24)
