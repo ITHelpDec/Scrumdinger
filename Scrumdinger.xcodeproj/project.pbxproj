@@ -37,6 +37,7 @@
 		D5DC12092BCDEE79008357A6 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */; };
 		D5DC120D2BCE71F5008357A6 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC120C2BCE71F5008357A6 /* SpeakerArc.swift */; };
 		D5DC12102BCEB5F6008357A6 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC120F2BCEB5F6008357A6 /* SpeechRecognizer.swift */; };
+		D5DC12142BCED92B008357A6 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DC12132BCED92B008357A6 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
 		D5DC120C2BCE71F5008357A6 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		D5DC120F2BCEB5F6008357A6 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		D5DC12132BCED92B008357A6 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,7 @@
 				D5DC12062BCC1C43008357A6 /* ErrorView.swift */,
 				D5DC12082BCDEE79008357A6 /* MeetingTimerView.swift */,
 				D5DC120C2BCE71F5008357A6 /* SpeakerArc.swift */,
+				D5DC12132BCED92B008357A6 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -358,6 +361,7 @@
 				D5DC120D2BCE71F5008357A6 /* SpeakerArc.swift in Sources */,
 				D5DC12072BCC1C43008357A6 /* ErrorView.swift in Sources */,
 				D5CC53C02BC7CE0C007DBD0F /* ScrumTimer.swift in Sources */,
+				D5DC12142BCED92B008357A6 /* HistoryView.swift in Sources */,
 				D5DC12092BCDEE79008357A6 /* MeetingTimerView.swift in Sources */,
 				D5CC53A72BBF4206007DBD0F /* DailyScrum.swift in Sources */,
 				D5DC12032BCAEF11008357A6 /* ScrumStore.swift in Sources */,
