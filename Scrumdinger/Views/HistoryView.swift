@@ -15,6 +15,8 @@ struct HistoryView: View {
             VStack(alignment: .leading) {
                 Divider()
                     .padding(.bottom)
+                Text("Attendees")
+                    .font(.headline)
             }
         }
     }
