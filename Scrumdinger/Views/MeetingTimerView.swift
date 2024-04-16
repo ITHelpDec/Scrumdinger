@@ -28,7 +28,9 @@ struct MeetingTimerView: View {
                 .foregroundStyle(theme.accentColour)
             }
             .overlay {
-                
+                ForEach(speakers) { speaker in
+                    
+                }
             }
             .padding(.horizontal)
     }
