@@ -29,7 +29,9 @@ struct MeetingTimerView: View {
             }
             .overlay {
                 ForEach(speakers) { speaker in
-                    
+                    if speaker.isCompleted, let index = speakers.firstIndex(where: { $0.id == speaker.id }) {
+                        
+                    }
                 }
             }
             .padding(.horizontal)
