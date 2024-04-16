@@ -17,6 +17,8 @@ struct MeetingTimerView: View {
     }
 }
 
-#Preview {
-    MeetingTimerView()
+struct MeetingTimerView_Preview: PreviewProvider {
+    static var previews: some View {
+        MeetingTimerView()
+    }
 }
