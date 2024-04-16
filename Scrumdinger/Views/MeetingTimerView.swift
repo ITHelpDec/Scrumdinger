@@ -24,6 +24,7 @@ struct MeetingTimerView: View {
                         .font(.title)
                     Text("is speaking")
                 }
+                .accessibilityElement(children: .combine)
             }
     }
 }
