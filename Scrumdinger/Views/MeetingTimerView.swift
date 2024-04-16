@@ -25,6 +25,7 @@ struct MeetingTimerView: View {
                     Text("is speaking")
                 }
                 .accessibilityElement(children: .combine)
+                .foregroundStyle(theme.accentColour)
             }
     }
 }
