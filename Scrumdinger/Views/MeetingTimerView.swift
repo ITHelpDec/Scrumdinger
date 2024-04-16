@@ -24,6 +24,7 @@ struct MeetingTimerView: View {
                     Text(currentSpeaker)
                         .font(.title)
                     Text("is speaking")
+                    Image(systemName: isRecording ? "mic" : "mic.slash")
                 }
                 .accessibilityElement(children: .combine)
                 .foregroundStyle(theme.accentColour)
