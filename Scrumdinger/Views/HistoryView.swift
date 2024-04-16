@@ -20,6 +20,8 @@ struct HistoryView: View {
                 Text(history.attendeeString)
                 if let transcript = history.transcript {
                     Text("Transcript")
+                        .font(.headline)
+                        .padding(.top)
                     Text(transcript)
                 }
             }
