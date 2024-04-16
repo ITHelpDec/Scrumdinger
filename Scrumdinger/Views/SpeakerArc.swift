@@ -26,7 +26,7 @@ struct SpeakerArc: Shape {
         let radius = diameter / 2.0
         let centre = CGPoint(x: rect.midX, y: rect.midY)
         return Path { path in
-            
+            path.addArc(center: centre, radius: radius, startAngle: startAngle, endAngle: endAngle, clockwise: false)
         }
     }
 }
