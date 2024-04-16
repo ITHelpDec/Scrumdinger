@@ -42,6 +42,7 @@ struct MeetingView: View {
             player.seek(to: .zero)
             player.play()
         }
+        speechRecogniser.resetTranscript()
         scrumTimer.startScrum()
     }
     
