@@ -15,6 +15,8 @@ struct HistoryView: View {
     }
 }
 
-#Preview {
-    HistoryView()
+struct HistoryViewPreview: PreviewProvider {
+    static var previews: some View {
+        HistoryView()
+    }
 }
